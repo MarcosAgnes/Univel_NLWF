@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulários</title>
+  </head>
+  <body>
+    <form action="/submit" method="post">
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" /><br /><br />
+
+      <label for="idade">Idade:</label>
+      <input type="number" id="idade" name="idade" min="0" /><br /><br />
+
+      <label for="senha">Senha:</label>
+      <input type="password" id="senha" name="senha" /><br /><br />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" /><br /><br />
+
+      <label for="dataNascimento">Data de Nascimento:</label>
+      <input
+        type="date"
+        id="dataNascimento"
+        name="dataNascimento"
+      /><br /><br />
+
+      <label for="veiculo">Possui veículo:</label>
+      <input
+        type="checkbox"
+        id="veiculo"
+        name="veiculo"
+        value="Sim"
+      /><br /><br />
+
+      <label for="cor">Cor favorita:</label>
+      <input type="color" id="cor" name="cor" value="#ff0000" /><br /><br />
+
+      <label for="quantidade">Quantidade (entre 1 e 5):</label>
+      <input
+        type="range"
+        id="quantidade"
+        name="quantidade"
+        min="1"
+        max="5"
+      /><br /><br />
+
+      <label for="telefone">Telefone:</label>
+      <input type="tel" id="telefone" name="telefone" /><br /><br />
+
+      <label for="site">Website:</label>
+      <input type="url" id="site" name="site" /><br /><br />
+
+      <label for="sobre">Sobre você:</label><br />
+      <textarea id="sobre" name="sobre" rows="4" cols="50"></textarea
+      ><br /><br />
+
+      <!-- Radio Buttons -->
+      <label>Sexo:</label>
+      <input type="radio" id="masculino" name="sexo" value="masculino">
+      <label for="masculino">Masculino</label>
+      <input type="radio" id="feminino" name="sexo" value="feminino">
+      <label for="feminino">Feminino</label><br><br>
+
+      <!-- Checkboxes -->
+      <label>Interesses:</label>
+      <input type="checkbox" id="tecnologia" name="interesse" value="tecnologia">
+      <label for="tecnologia">Tecnologia</label>
+      <input type="checkbox" id="esportes" name="interesse" value="esportes">
+      <label for="esportes">Esportes</label>
+      <input type="checkbox" id="arte" name="interesse" value="arte">
+      <label for="arte">Arte</label><br><br>
+
+      <!-- Select -->
+      <label for="pais">País:</label>
+      <select id="pais" name="pais">
+          <option value="brasil">Brasil</option>
+          <option value="eua">Estados Unidos</option>
+          <option value="canada">Canadá</option>
+          <option value="australia">Austrália</option>
+      </select><br><br>
+
+      <input type="submit" value="Enviar" />
+    </form>
+  </body>
+</html>
