@@ -1,0 +1,24 @@
+.block {
+    display: block;
+    background-color: rgb(24, 176, 226);
+    margin: 10px 0;
+    text-align: center;
+}
+
+.inline {
+    display: inline;
+    background-color: lightgreen;
+    margin: 10px;
+}
+
+.inline-block {
+    display: inline-block;
+    background-color: lightcoral;
+    margin: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+.none {
+    display: none;
+}
