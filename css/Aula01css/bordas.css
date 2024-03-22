@@ -1,0 +1,14 @@
+body {
+    background-color: #495899;
+}
+
+.box1 {
+    background-color: #007bff;
+    color: white;
+    padding: 40px; /* Espaço interno entre o conteúdo e a borda */
+    border: 5px solid #333; /* Borda do elemento */
+    margin: 15px; /* Espaço externo entre o elemento e outros elementos */
+    width: 200px;
+    position: relative;
+    text-align: center;
+}
