@@ -11,6 +11,20 @@ body {
     margin-bottom: 20px;
 }
 
+.solid-color-rgb {
+    background-color: rgb(0, 0, 233);
+    color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.solid-color-hsla {
+    background-color: hsla(241, 70%, 46%, 0.781);
+    color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
 .background-image {
     background-image: url('img/hannes-kottner.jpg');
     background-size: cover;
@@ -19,6 +33,7 @@ body {
     padding: 100px 20px;
     margin-bottom: 20px;
 }
+
 
 .gradient-background {
     background-image: linear-gradient(to right, #721903, #edf1ab);
