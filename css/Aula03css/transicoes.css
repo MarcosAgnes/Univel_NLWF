@@ -1,0 +1,15 @@
+.transition-box {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    color: white;
+    line-height: 100px;
+    text-align: center;
+    transition: background-color 2s, transform 2s;
+    margin-bottom: 20px;
+}
+
+.transition-box:hover {
+    background-color: red;
+    transform: scale(1.5);
+}

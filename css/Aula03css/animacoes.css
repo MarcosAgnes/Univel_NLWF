@@ -1,0 +1,24 @@
+@keyframes color-and-rotate {
+    0% {
+        background-color: blue;
+        transform: rotate(0deg);
+    }
+    50% {
+        background-color: green;
+        transform: rotate(180deg);
+    }
+    100% {
+        background-color: blue;
+        transform: rotate(360deg);
+    }
+}
+
+.animation-box {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    color: white;
+    line-height: 100px;
+    text-align: center;
+    animation: color-and-rotate 5s infinite linear;
+}
