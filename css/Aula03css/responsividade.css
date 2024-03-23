@@ -1,0 +1,22 @@
+.content {
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Media query para tablets */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .content {
+        background-color: lightcoral;
+        font-size: 20px;
+    }
+}
+
+/* Media query para desktops */
+@media (min-width: 1025px) {
+    .content {
+        background-color: lightgreen;
+        font-size: 24px;
+        padding: 40px;
+    }
+}
